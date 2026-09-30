@@ -1,0 +1,15 @@
+# 密钥与本地配置（绝不允许入库）
+.env
+
+# 运行时产物全部排除：数据库、附件原档、微信登录凭据与二维码、日志、
+# 以及 reset_chat.py 产生的对话备份（聊天记录备份绝不能进仓库）
+data/
+
+# 依赖与缓存
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# macOS 系统文件
+.DS_Store

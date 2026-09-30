@@ -1,0 +1,7 @@
+# 运行时依赖
+PyMuPDF>=1.24          # 多页 PDF 页数读取与采样页渲染（多模态识别前置）
+python-docx>=1.1       # .docx 合同/协议文本提取
+pillow-heif>=0.16      # .heic/.heif 图片（iPhone 照片）转码
+
+# 开发/测试
+pytest>=8.0
